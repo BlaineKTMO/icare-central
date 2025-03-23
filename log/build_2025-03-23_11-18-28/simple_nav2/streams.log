@@ -1,0 +1,41 @@
+[0.006s] Invoking command in '/home/blaine/GrizzHack/icare-central/build/simple_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/fusion:/home/blaine/ros2_ws/install/simulation:/home/blaine/ros2_ws/install/shanti_bringup:/home/blaine/ros2_ws/install/shanti_base:/home/blaine/ros2_ws/install/serial_coms:/home/blaine/ros2_ws/install/perception:/home/blaine/ros2_ws/install/omnivision:/home/blaine/ros2_ws/install/nav_bringup:/home/blaine/ros2_ws/install/localization_bringup:/home/blaine/ros2_ws/install/line_follow:/home/blaine/ros2_ws/install/360_vision_fusion:/opt/ros/humble /home/blaine/.local/bin/cmake --build /home/blaine/GrizzHack/icare-central/build/simple_nav2 -- -j32 -l32
+[0.044s] [ 50%] [32mBuilding CXX object CMakeFiles/dwa_nav_node.dir/src/dwa_nav_node.cpp.o[0m
+[1.239s] [01m[K/home/blaine/GrizzHack/icare-central/icare-nav/src/dwa_nav_node.cpp:[m[K In member function ‘[01m[KDWANavNode::ObstacleInfo DWANavNode::check_obstacles()[m[K’:
+[1.239s] [01m[K/home/blaine/GrizzHack/icare-central/icare-nav/src/dwa_nav_node.cpp:169:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kfront_end[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.239s]   169 |         int [01;35m[Kfront_end[m[K = latest_scan_->ranges.size() - front_start;
+[1.239s]       |             [01;35m[K^~~~~~~~~[m[K
+[1.239s] [01m[K/home/blaine/GrizzHack/icare-central/icare-nav/src/dwa_nav_node.cpp:171:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kclosest_obstacle_angle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.239s]   171 |         double [01;35m[Kclosest_obstacle_angle[m[K = 0.0;
+[1.239s]       |                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.243s] [01m[K/home/blaine/GrizzHack/icare-central/icare-nav/src/dwa_nav_node.cpp:[m[K In member function ‘[01m[Kdouble DWANavNode::calculate_obstacle_cost(const DWANavNode::Trajectory&)[m[K’:
+[1.243s] [01m[K/home/blaine/GrizzHack/icare-central/icare-nav/src/dwa_nav_node.cpp:477:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kscan_dist[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.243s]   477 |             double [01;35m[Kscan_dist[m[K = std::sqrt(traj_x * traj_x + traj_y * traj_y);
+[1.243s]       |                    [01;35m[K^~~~~~~~~[m[K
+[6.616s] [100%] [32m[1mLinking CXX executable dwa_nav_node[0m
+[6.989s] [100%] Built target dwa_nav_node
+[7.002s] Invoked command in '/home/blaine/GrizzHack/icare-central/build/simple_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/fusion:/home/blaine/ros2_ws/install/simulation:/home/blaine/ros2_ws/install/shanti_bringup:/home/blaine/ros2_ws/install/shanti_base:/home/blaine/ros2_ws/install/serial_coms:/home/blaine/ros2_ws/install/perception:/home/blaine/ros2_ws/install/omnivision:/home/blaine/ros2_ws/install/nav_bringup:/home/blaine/ros2_ws/install/localization_bringup:/home/blaine/ros2_ws/install/line_follow:/home/blaine/ros2_ws/install/360_vision_fusion:/opt/ros/humble /home/blaine/.local/bin/cmake --build /home/blaine/GrizzHack/icare-central/build/simple_nav2 -- -j32 -l32
+[7.021s] Invoking command in '/home/blaine/GrizzHack/icare-central/build/simple_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/fusion:/home/blaine/ros2_ws/install/simulation:/home/blaine/ros2_ws/install/shanti_bringup:/home/blaine/ros2_ws/install/shanti_base:/home/blaine/ros2_ws/install/serial_coms:/home/blaine/ros2_ws/install/perception:/home/blaine/ros2_ws/install/omnivision:/home/blaine/ros2_ws/install/nav_bringup:/home/blaine/ros2_ws/install/localization_bringup:/home/blaine/ros2_ws/install/line_follow:/home/blaine/ros2_ws/install/360_vision_fusion:/opt/ros/humble /home/blaine/.local/bin/cmake --install /home/blaine/GrizzHack/icare-central/build/simple_nav2
+[7.038s] -- Install configuration: ""
+[7.038s] -- Installing: /home/blaine/GrizzHack/icare-central/install/simple_nav2/lib/simple_nav2/dwa_nav_node
+[7.041s] -- Set runtime path of "/home/blaine/GrizzHack/icare-central/install/simple_nav2/lib/simple_nav2/dwa_nav_node" to ""
+[7.041s] -- Up-to-date: /home/blaine/GrizzHack/icare-central/install/simple_nav2/share/simple_nav2/launch
+[7.041s] -- Up-to-date: /home/blaine/GrizzHack/icare-central/install/simple_nav2/share/simple_nav2/launch/dwa_nav.launch.py
+[7.041s] -- Up-to-date: /home/blaine/GrizzHack/icare-central/install/simple_nav2/share/simple_nav2/launch/simple_nav.launch.py
+[7.041s] -- Up-to-date: /home/blaine/GrizzHack/icare-central/install/simple_nav2/share/simple_nav2/config
+[7.041s] -- Up-to-date: /home/blaine/GrizzHack/icare-central/install/simple_nav2/share/simple_nav2/config/nav2_params.yaml
+[7.041s] -- Up-to-date: /home/blaine/GrizzHack/icare-central/install/simple_nav2/share/ament_index/resource_index/package_run_dependencies/simple_nav2
+[7.041s] -- Up-to-date: /home/blaine/GrizzHack/icare-central/install/simple_nav2/share/ament_index/resource_index/parent_prefix_path/simple_nav2
+[7.041s] -- Up-to-date: /home/blaine/GrizzHack/icare-central/install/simple_nav2/share/simple_nav2/environment/ament_prefix_path.sh
+[7.041s] -- Up-to-date: /home/blaine/GrizzHack/icare-central/install/simple_nav2/share/simple_nav2/environment/ament_prefix_path.dsv
+[7.041s] -- Up-to-date: /home/blaine/GrizzHack/icare-central/install/simple_nav2/share/simple_nav2/environment/path.sh
+[7.041s] -- Up-to-date: /home/blaine/GrizzHack/icare-central/install/simple_nav2/share/simple_nav2/environment/path.dsv
+[7.041s] -- Up-to-date: /home/blaine/GrizzHack/icare-central/install/simple_nav2/share/simple_nav2/local_setup.bash
+[7.042s] -- Up-to-date: /home/blaine/GrizzHack/icare-central/install/simple_nav2/share/simple_nav2/local_setup.sh
+[7.042s] -- Up-to-date: /home/blaine/GrizzHack/icare-central/install/simple_nav2/share/simple_nav2/local_setup.zsh
+[7.042s] -- Up-to-date: /home/blaine/GrizzHack/icare-central/install/simple_nav2/share/simple_nav2/local_setup.dsv
+[7.042s] -- Installing: /home/blaine/GrizzHack/icare-central/install/simple_nav2/share/simple_nav2/package.dsv
+[7.042s] -- Up-to-date: /home/blaine/GrizzHack/icare-central/install/simple_nav2/share/ament_index/resource_index/packages/simple_nav2
+[7.042s] -- Up-to-date: /home/blaine/GrizzHack/icare-central/install/simple_nav2/share/simple_nav2/cmake/simple_nav2Config.cmake
+[7.042s] -- Up-to-date: /home/blaine/GrizzHack/icare-central/install/simple_nav2/share/simple_nav2/cmake/simple_nav2Config-version.cmake
+[7.042s] -- Up-to-date: /home/blaine/GrizzHack/icare-central/install/simple_nav2/share/simple_nav2/package.xml
+[7.044s] Invoked command in '/home/blaine/GrizzHack/icare-central/build/simple_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/fusion:/home/blaine/ros2_ws/install/simulation:/home/blaine/ros2_ws/install/shanti_bringup:/home/blaine/ros2_ws/install/shanti_base:/home/blaine/ros2_ws/install/serial_coms:/home/blaine/ros2_ws/install/perception:/home/blaine/ros2_ws/install/omnivision:/home/blaine/ros2_ws/install/nav_bringup:/home/blaine/ros2_ws/install/localization_bringup:/home/blaine/ros2_ws/install/line_follow:/home/blaine/ros2_ws/install/360_vision_fusion:/opt/ros/humble /home/blaine/.local/bin/cmake --install /home/blaine/GrizzHack/icare-central/build/simple_nav2
