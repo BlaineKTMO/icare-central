@@ -13,3 +13,9 @@
 [submodule "icare-nav"]
 	path = icare-nav
 	url = git@github.com:blainektmo/icare-nav
+[submodule "eye_tracking"]
+	path = eye_tracking
+	url = git@github.com:jaideep-siva/eye_tracking.git
+[submodule "cam_hrv"]
+	path = cam_hrv
+	url = git@github.com:jaideep-siva/cam_hrv.git
