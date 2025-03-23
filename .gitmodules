@@ -1,0 +1,15 @@
+[submodule "care-app"]
+	path = care-app
+	url = git@github.com:blainektmo/care-app.git
+[submodule "icare-imu"]
+	path = icare-imu
+	url = git@github.com:blainektmo/icare-imu
+[submodule "icare-mongo"]
+	path = icare-mongo
+	url = git@github.com:blainektmo/icare-mongo
+[submodule "icare-patient"]
+	path = icare-patient
+	url = git@github.com:blainektmo/icare-patient
+[submodule "icare-nav"]
+	path = icare-nav
+	url = git@github.com:blainektmo/icare-nav
